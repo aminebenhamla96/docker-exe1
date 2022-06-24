@@ -1,3 +1,4 @@
+#!/bin/bash/
 ```shell   
 docker run -it -v /MountPoint --name myalpes1 alpine /bin/ash
 docker ps -a
@@ -15,3 +16,4 @@ docker login -u aminebenhamla -p****
 docker image tag myalpine:v12 aminebenhamla/myalpine:v12
 docker push aminebenhamla/myalpine:v12
 ```
+
